@@ -25,7 +25,7 @@ namespace Phonebook
 
             if (Selection.ToLower() == "a")
             {
-                AddMenu();
+                AddNumber();
             }
             else if (Selection.ToLower() == "v")
             {
@@ -47,7 +47,7 @@ namespace Phonebook
                 MainMenu();
             }
         }
-        static void AddMenu()
+        static void AddNumber()
         {
             Console.Clear();
             Console.WriteLine("Name: ");
